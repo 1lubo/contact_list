@@ -20,11 +20,11 @@ Contacts in the contact list are unique, meaning no two contacts can have both t
 
 Your program should work similarly to a command line interface, where you constantly ask the user to enter one of the following commands:
 
-__- add__: Adds a contact to the contact list.
-__- delete__: Deletes a contact from the contact list using it's first and last name.
-__- list__: Lists all the contacts in alphabetical order by first name.
-__- search__: Searches for contacts by their first and last name.
-__- q__: Quits the program and saves all of the current contacts.
+-__add__: Adds a contact to the contact list.
+-__delete__: Deletes a contact from the contact list using it's first and last name.
+-__list__: Lists all the contacts in alphabetical order by first name.
+-__search__: Searches for contacts by their first and last name.
+-__q__: Quits the program and saves all of the current contacts.
 
 When adding contacts ensure that all phone numbers that are entered are valid. For this project a phone number is valid if it is 10 digits and only contains numbers. Do the same with the email (a helper function is provided that verifies emails for you).
 
