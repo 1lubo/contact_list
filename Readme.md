@@ -5,4 +5,4 @@
 
 https://www.programmingexpert.io/projects/contact-list
 
-![prompt](/assets/images/prompt.png)
+![prompt](/assets/prompt.png)
