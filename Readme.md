@@ -20,19 +20,19 @@ Contacts in the contact list are unique, meaning no two contacts can have both t
 
 Your program should work similarly to a command line interface, where you constantly ask the user to enter one of the following commands:
 
-    **-add**: Adds a contact to the contact list.
-    **-delete**: Deletes a contact from the contact list using it's first and last name.
-    **-list**: Lists all the contacts in alphabetical order by first name.
-    **-search**: Searches for contacts by their first and last name.
-    **-q**: Quits the program and saves all of the current contacts.
+    __- add__: Adds a contact to the contact list.
+    __- delete__: Deletes a contact from the contact list using it's first and last name.
+    __- list__: Lists all the contacts in alphabetical order by first name.
+    __- search__: Searches for contacts by their first and last name.
+    __- q__: Quits the program and saves all of the current contacts.
 
 When adding contacts ensure that all phone numbers that are entered are valid. For this project a phone number is valid if it is 10 digits and only contains numbers. Do the same with the email (a helper function is provided that verifies emails for you).
 
 When searching for contacts simply display all contacts that contain the strings used to search for first and last names. For example, if your search strings are `first_name = "t"`and `last_name = "r"` then you should display the following names:
 
-    -Stan Right
-    -Tim Archer
-    -Thomas Rong
+    - Stan Right
+    - Tim Archer
+    - Thomas Rong
 
 All names that contain a `t` in the first name and a `r` in the last name are displayed. You should also display all of the search results in alphabetical order.
 
