@@ -8,10 +8,11 @@ file_name = "contacts.json"
 
 header = {"contacts": []}
 
-# always start with empty contact list
+# if file does not exist create a new file
 
-with open(file_name, 'w', encoding='utf-8') as file:
-    json.dump(header, file, ensure_ascii=False, indent=4)
+if not exists(file_name):
+    with open(file_name, 'w', encoding='utf-8') as file:
+        json.dump(header, file, ensure_ascii=False, indent=4)
 
 with open(file_name, 'r') as file:
     contact_object = json.load(file)
